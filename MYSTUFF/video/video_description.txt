@@ -1,4 +1,5 @@
 Code used to create the video: https://github.com/bhackel/video_torch-rnn
+Long Sample: https://github.com/bhackel/video_torch-rnn/blob/master/MYSTUFF/video/long_sample.txt
 I used pyside2 and ffmpeg PFPFPHAHAHA to make the video.
 The graph and samples in the video are not really synchronized, so it's weird at the start. Also the format is cluttered. 5/10
 
