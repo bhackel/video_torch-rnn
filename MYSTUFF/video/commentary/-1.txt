@@ -1,0 +1,16 @@
+Final results after 7.5 hours of
+training.
+
+It managed to get the spacing
+between lines, and even chapter 
+markers.
+
+However, it is unable to learn the
+structure of sentences well, so
+shorter phrases work better.
+
+Still good results.
+
+A longer sample, along with the code
+used to create everything in this
+video, is in the description.

@@ -1,0 +1,10 @@
+Code used to create the video: https://github.com/bhackel/video_torch-rnn
+I used pyside2 and ffmpeg PFPFPHAHAHA to make the video.
+The graph and samples in the video are not really synchronized, so it's weird at the start. Also the format is cluttered. 5/10
+
+The model used was torch-rnn by Justin Johnson, https://github.com/jcjohnson/torch-rnn. I did not write a single line of machine learning code for this video.
+The dataset is one large text file consisting of every English-translated volume of the light novel series "Yahari Ore no Seishun Love Comedy wa Machigatteiru." I compiled it together from the EPUBs using an online tool.
+
+The background music is ✨ramune✨ by ✨ujbeats✨.
+Link: https://soundcloud.com/ujbeats/ramune
+I do not own the music used in this video.

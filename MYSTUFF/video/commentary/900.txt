@@ -1,0 +1,3 @@
+Way more new lines now.
+
+Large reduction in Japanese characters, which is closer to the mainly Latin characters in the dataset

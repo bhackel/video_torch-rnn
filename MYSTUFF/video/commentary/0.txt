@@ -1,0 +1,10 @@
+Model Stats:
+ - LSTM
+ - 4 Layers
+ - 512 Hidden Units
+
+ Defaults:
+ - 50 Batch Size
+ - 50 Epochs
+ - 0.002 Learning Rate
+ - more...

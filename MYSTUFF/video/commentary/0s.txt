@@ -1,0 +1,10 @@
+Samples of the training iterations will go here
+
+
+Model: torch-rnn by Justin Johnson
+
+
+Dataset: Large text file of translated light novel
+
+
+Video starts at 10 seconds

@@ -1,0 +1,6 @@
+Large drop in loss from 3 to around 1.5
+
+Inserting two new lines between
+text chunks
+
+Some actual words

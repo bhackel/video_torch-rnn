@@ -1,0 +1,38 @@
+#--===****^****===--#
+
+Command to sample
+th sample.lua -checkpoint cv/checkpoint_10000.t7 -length 2000
+
+see preprocessing directory and preprocessor-easy.py for preprocessing
+
+#--===****^****===--#
+
+BAD COMMANDS WHOOPS
+
+th train.lua -input_h5 preprocessing/oregairu-full.h5 -input_json preprocessing/oregairu-full.json -model_type rnn -num_layers 3 -rnn_size 500
+
+th train.lua -input_h5 preprocessing/oregairu-full-mod.h5 -input_json preprocessing/oregairu-full.json -model_type lstm -num_layers 4 -rnn_size 512 -max_epochs 100
+
+th train.lua -input_h5 preprocessing/oregairu-full-mod.h5 -input_json preprocessing/oregairu-full.json -model_type rnn -num_layers 4 -rnn_size 512 -max_epochs 100 -checkpoint_name cv-4x512-rnn-mod/checkpoint
+
+th train.lua -input_h5 preprocessing/oregairu-full-mod.h5 -input_json preprocessing/oregairu-full.json -model_type rnn -num_layers 3 -rnn_size 256 -max_epochs 100 -checkpoint_name cv-3x256-rnn-mod/checkpoint
+
+-------------------------------------
+
+the good stuff
+
+th train.lua -input_h5 preprocessing/oregairu-full-mod.h5 -input_json preprocessing/oregairu-full-mod.json -model_type lstm -num_layers 3 -rnn_size 512 -max_epochs 100 -checkpoint_name cv-3x512-lstm-mod/checkpoint
+
+th train.lua -input_h5 preprocessing/oregairu-full-mod.h5 -input_json preprocessing/oregairu-full-mod.json -model_type lstm -num_layers 2 -rnn_size 256 -max_epochs 50 -checkpoint_name cv-2x256-lstm-mod/checkpoint
+
+th train.lua -input_h5 preprocessing/oregairu-full-mod.h5 -input_json preprocessing/oregairu-full-mod.json -model_type lstm -num_layers 4 -rnn_size 512 -max_epochs 50 -checkpoint_name cv-4x512-lstm-mod/checkpoint
+
+th train.lua -input_h5 preprocessing/oregairu-full-mod.h5 -input_json preprocessing/oregairu-full-mod.json -model_type lstm -num_layers 3 -rnn_size 256 -max_epochs 50 -checkpoint_name cv-3x256-lstm-mod/checkpoint
+
+th train.lua -input_h5 preprocessing/oregairu-full-mod.h5 -input_json preprocessing/oregairu-full-mod.json -model_type lstm -num_layers 5 -rnn_size 512 -max_epochs 50 -checkpoint_name cv-5x512-lstm-mod/checkpoint
+
+th train.lua -input_h5 preprocessing/oregairu-full-mod.h5 -input_json preprocessing/oregairu-full-mod.json -model_type lstm -num_layers 5 -rnn_size 1024 -max_epochs 50 -checkpoint_name cv-5x1024-lstm-mod/checkpoint
+
+th train.lua -input_h5 preprocessing/oregairu-full-mod.h5 -input_json preprocessing/oregairu-full-mod.json -model_type lstm -num_layers 4 -rnn_size 512 -max_epochs 50 -checkpoint_name cv-chk50-4x512-lstm-mod/checkpoint -checkpoint_every 50 -max_epochs 0.5
+
+th train.lua -input_h5 preprocessing/oregairu-full-mod.h5 -input_json preprocessing/oregairu-full-mod.json -model_type lstm -num_layers 4 -rnn_size 512 -max_epochs 50 -checkpoint_name cv-chk1-4x512-lstm-mod/checkpoint -checkpoint_every 1 -max_epochs 0.025
